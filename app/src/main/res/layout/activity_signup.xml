@@ -5,7 +5,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
-    android:background="@color/white"
+    android:background="@color/black"
     tools:context=".SignupActivity">
 
     <TextView
@@ -13,38 +13,42 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="95dp"
-        android:textSize="50dp"
-        android:text="Register"
+        android:layout_marginLeft="90dp"
+        android:textSize="30dp"
+        android:text="SIGN UP HERE!"
         android:textColor="@android:color/holo_blue_dark" />
 
     <EditText
-        android:id="@+id/ed_username"
+        android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Enter UserName"
+        android:hint="Enter UserName"
+        android:textColor="@color/black"
         android:layout_marginTop="10dp"/>
 
     <EditText
-        android:id="@+id/ed_password"
+        android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
-        android:text="Enter Password" />
+        android:textColor="@color/black"
+        android:hint="Enter Password" />
 
     <EditText
-        android:id="@+id/ed_confirm_pwd"
+        android:id="@+id/confirm_pwd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
-        android:text="ConfirmPassword" />
+        android:textColor="@color/black"
+        android:hint="ConfirmPassword" />
 
     <Button
         android:id="@+id/btn_create_user"
         android:layout_width="wrap_content"
         android:layout_height="65dp"
-        android:layout_marginLeft="160dp"
+        android:layout_marginLeft="120dp"
         android:layout_marginTop="20dp"
-        android:text="CreateUser"
-        android:textSize="24dp"/>
+        android:text="SIGN UP"
+        android:textSize="20dp"/>
 </LinearLayout>
